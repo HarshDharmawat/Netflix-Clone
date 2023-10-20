@@ -1,0 +1,170 @@
+*{
+    letter-spacing: 0!important;
+}
+
+body{
+    background-image: url(images/netflix.jpg);
+    background-size: 1350px 650px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav .img img{
+    width: 16%;
+    margin-top: -18px;
+}
+
+.btn .eng{
+    width: 120px;
+    height: 32px;
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+.btn .signin:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+
+.btn .signin{
+    width: 80px;
+    height: 32px;
+    background-color: red;
+    color: #fff;
+    font-size: 19px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    border: none;
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 12px;
+}
+
+.btn .eng{
+    margin-inline: 22px;
+}
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 50px;
+    margin-top: 144px;
+}
+
+.main h3{
+    font-size: 32px;
+}
+
+.main p{
+    font-size: 18px;
+}
+
+.input{
+    display:flex;
+    justify-content: center;
+}
+
+.input input{
+    width: 360px;
+    height: 40px;
+    border: none;
+    font-size: 26px;
+}
+
+.input button{
+    width: 200px;
+    height: 42px;
+    background-color: rgb(230, 11, 11);
+    color: #fff;
+    font-size: 26px;
+    border: none;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 174px;
+    padding: 45px;
+    border-top: 6px solid gray;
+}
+
+.first h1{
+    font-size: 55px;
+}
+
+.first p{
+    font-size: 27px;
+}
+
+.first img{
+    width: 40%;
+}
+
+.buttons h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 53px;
+}
+
+.buttons button{
+    width: 900px;
+    height: 70px;
+    background-color: #80808049;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 17%;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 33px;
+}
+
+.hero {
+    text-align: center;
+    font-size: 25px;
+}
+
+.hero input{
+    width: 360px;
+    height: 40px;
+    border: none;
+    font-size: 26px;
+}
+
+.hero button{
+    width: 200px;
+    height: 42px;
+    background-color: rgb(230, 11, 11);
+    color: #fff;
+    font-size: 26px;
+    border: none;
+}
+
+.mine{
+    margin-left: 190px;
+}
